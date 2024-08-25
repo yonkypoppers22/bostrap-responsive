@@ -1,0 +1,393 @@
+body{
+    background-color: aqua;
+
+}
+
+.border{
+    border: 1px solid black;
+    background-color: rgba(255, 249, 249, 0.7);;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.5);
+    justify-content: space-around;
+}
+
+.border2{
+    background-color: rgba(255, 249, 249, 0.7);
+    border-radius: 5px;
+    border: 2px solid lightblue;
+   
+    
+}
+
+.estilo{
+    background-color: rgba(255, 249, 249, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10  aqua;
+    margin-left: 0;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 20px;
+}
+
+.img{
+    background-image: url("../img/pexels-parlantzasg-10651174.jpg..");
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+.color{
+    background-color: white;
+
+}
+
+
+.color2{
+    background-color: yellowgreen;
+
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+article{
+    border-top: 2px solid white  ;
+    border-left: 2px  solid blue;
+    border-right: 2px solid white;
+    border-bottom: 2px  solid red;
+    margin: 10px;
+    width: 50%;
+}
+
+.cuadro{
+    border-radius: 5px solid white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+
+}
+
+
+footer{
+    border: 2px solid black;
+
+}
+
+
+.seccion-estilo {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.seccion-estilo2 {
+    background-color: rgba(170, 175, 255, 0.3);
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-left: 0;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.imagentam{
+    width: 50%;
+    justify-content: center;
+    
+  }
+
+
+
+aside{
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+
+
+nav{
+    border: 2px solid black ;
+    text-align: center;
+    margin: 10px;
+    width: 50vw;
+}
+
+
+.cuadros2{
+    border-radius: 5px ;
+    border: 2px solid black;
+    background-color: white; 
+    width: 90%;
+    margin: 10px;
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.images1{
+    width: 50%;
+    margin: auto;
+}
+.border-a{
+       
+    border-top: 2px solid yellow;
+    border-right: 2px solid red;
+    border-bottom: 2px dashed black;
+    border-left: 2px solid blue;
+    margin: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    body{
+        background-color: yellow;
+
+    }
+
+        
+    .logo{
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    .nombre{
+        
+        width: 100%;
+        border-top: 2px dashed blue  ;
+        border-left: 2px  dotted blue;
+        border-right: 2px dotted blue;
+        border-bottom: 2px  dashed blue;
+    }
+
+    .menup{
+        width: 100%;
+    }
+    .registro{
+        width: 100%;
+
+    }
+
+    .buscar{
+        width: 100%;
+        display: none;
+    }
+    h1{
+        color: black;
+    }
+   
+
+}
+
+@media screen {
+    
+}
+
+@media screen and (min-width: 301px) and (max-width:600px){
+    body{
+        background-color: blue;
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .logo{
+        width: 50%;
+        margin: 10px;
+    }
+
+    .nombre{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .menup{
+        width: 100%;
+        margin: 10px;
+    }
+    .registro{
+        width: 50%;
+        margin: 10px;
+    }
+
+    .buscar{
+        width: 50%;
+        display: none;
+    h1{
+        color: white;
+        
+    }
+}}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+   
+    .header{
+        display: flex;
+    }
+    .container{
+        flex-wrap: nowrap;
+
+    }
+    .logo{
+        width: 30%;
+        margin: 10px;
+    }
+
+    .nombre{
+        width: 40%;
+        margin: 10px;
+    }
+
+    .menup{
+        width: 30%;
+        margin: 10px;
+    }
+    .registro{
+        width: 50%;
+        margin: 10px;
+    }
+
+    .buscar{
+        width: 50%;
+        margin: 10px;
+
+    h1{
+        color: goldenrod;
+        
+    }
+}}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    body{
+        background-color: violet;
+    }
+
+    .container{
+        flex-wrap: nowrap;
+
+    }
+
+    .header{
+        display: flex;
+    }
+    
+    .logo{
+        width: 30%;
+        margin: 10px;
+
+    }
+
+    .nombre{
+        width: 30%;
+        background-color: rgba(255, 182, 193, 0.3);
+        margin: 10px;
+    }
+
+    .menup{
+        width: 30%;
+        background-color: rgba(0, 191, 255, 0.3);
+        margin: 10px;
+        
+    }
+    .registro{
+        width: 10%;
+        background-color: rgba(8, 12, 245, 0.3);
+        margin: 10px;
+    }
+
+    .buscar{
+        margin: 10px;
+        background-color: rgba(173, 216, 230, 0.3);
+        width: 100%;
+
+    h1{
+        color: blue;
+        
+    }
+}}
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+    body{
+        background-color: green;
+    }
+
+    .container{
+        flex-wrap: nowrap;
+
+    }
+
+    .header{
+        display: flex;
+    }
+
+    .logo{
+        margin: 10px;
+        width: 10%;
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    .nombre{
+        width: 20%;
+        border: 2px solid black;
+        background-color: rgba(255, 182, 193, 0.3);
+        text-align: center;
+    }
+
+    .menup{
+        margin: 10px;
+        width: 40%;
+        border: 2px solid black;
+        background-color: rgba(255, 20, 147, 0.3);
+        text-align: center;
+    }
+    .registro{
+        margin: 10px;
+        width: 20%;
+        border: 2px solid black;
+        background-color: rgba(138, 43, 226, 0.3);
+        text-align: center;
+    }
+
+    .buscar{
+        margin: 10px;
+        width: 10%;
+        text-align: center;
+        background-color: rgba(0, 255, 128, 0.3);
+    h1{
+        color: yellow;
+    }
+
+}}
